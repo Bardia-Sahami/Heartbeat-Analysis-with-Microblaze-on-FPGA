@@ -1,0 +1,1037 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Jun  6 18:08:15 2023
+# Process ID: 9224
+# Current directory: E:/XilinxV/Projects/project_12NewLast/project_12/project_12.runs/design_1_heartbeat_0_0_synth_1
+# Command line: vivado.exe -log design_1_heartbeat_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_heartbeat_0_0.tcl
+# Log file: E:/XilinxV/Projects/project_12NewLast/project_12/project_12.runs/design_1_heartbeat_0_0_synth_1/design_1_heartbeat_0_0.vds
+# Journal file: E:/XilinxV/Projects/project_12NewLast/project_12/project_12.runs/design_1_heartbeat_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_heartbeat_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/miss_p/AppData/Roaming/Xilinx/Vivado/PeakDetection2'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/miss_p/AppData/Roaming/Xilinx/Vivado/HeartBeat'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/XilinxV/Vivado/2019.1/data/ip'.
+Command: synth_design -top design_1_heartbeat_0_0 -part xc7s100fgga676-2 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7s100'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7s100'
+INFO: [Device 21-403] Loading part xc7s100fgga676-2
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 9560 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 811.719 ; gain = 179.785
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'design_1_heartbeat_0_0' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ip/design_1_heartbeat_0_0/synth/design_1_heartbeat_0_0.vhd:70]
+INFO: [Synth 8-3491] module 'heartbeat' declared at 'e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat.vhd:12' bound to instance 'U0' of component 'heartbeat' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ip/design_1_heartbeat_0_0/synth/design_1_heartbeat_0_0.vhd:111]
+INFO: [Synth 8-638] synthesizing module 'heartbeat' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat.vhd:26]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat.vhd:142]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat.vhd:145]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat.vhd:149]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat.vhd:151]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat.vhd:154]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat.vhd:164]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat.vhd:173]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat.vhd:175]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat.vhd:181]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat.vhd:185]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat.vhd:189]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat.vhd:195]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat.vhd:206]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat.vhd:214]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat.vhd:218]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat.vhd:220]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat.vhd:236]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 10 - type: integer 
+	Parameter AddressWidth bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'heartbeat_rPeaks' declared at 'e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_rPeaks.vhd:97' bound to instance 'rPeaks_U' of component 'heartbeat_rPeaks' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat.vhd:438]
+INFO: [Synth 8-638] synthesizing module 'heartbeat_rPeaks' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_rPeaks.vhd:115]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 10 - type: integer 
+	Parameter AddressWidth bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'heartbeat_rPeaks_ram' declared at 'e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_rPeaks.vhd:10' bound to instance 'heartbeat_rPeaks_ram_U' of component 'heartbeat_rPeaks_ram' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_rPeaks.vhd:132]
+INFO: [Synth 8-638] synthesizing module 'heartbeat_rPeaks_ram' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_rPeaks.vhd:31]
+	Parameter MEM_TYPE bound to: distributed - type: string 
+	Parameter DWIDTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 4 - type: integer 
+	Parameter MEM_SIZE bound to: 10 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'heartbeat_rPeaks_ram' (1#1) [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_rPeaks.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'heartbeat_rPeaks' (2#1) [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_rPeaks.vhd:115]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 3 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'heartbeat_fmul_32bkb' declared at 'e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_fmul_32bkb.vhd:8' bound to instance 'heartbeat_fmul_32bkb_U1' of component 'heartbeat_fmul_32bkb' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat.vhd:455]
+INFO: [Synth 8-638] synthesizing module 'heartbeat_fmul_32bkb' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_fmul_32bkb.vhd:26]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 3 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'heartbeat_ap_fmul_1_max_dsp_32' declared at 'e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/ip/heartbeat_ap_fmul_1_max_dsp_32.vhd:59' bound to instance 'heartbeat_ap_fmul_1_max_dsp_32_u' of component 'heartbeat_ap_fmul_1_max_dsp_32' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_fmul_32bkb.vhd:56]
+INFO: [Synth 8-638] synthesizing module 'heartbeat_ap_fmul_1_max_dsp_32' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/ip/heartbeat_ap_fmul_1_max_dsp_32.vhd:72]
+	Parameter C_XDEVICEFAMILY bound to: spartan7 - type: string 
+	Parameter C_HAS_ADD bound to: 0 - type: integer 
+	Parameter C_HAS_SUBTRACT bound to: 0 - type: integer 
+	Parameter C_HAS_MULTIPLY bound to: 1 - type: integer 
+	Parameter C_HAS_DIVIDE bound to: 0 - type: integer 
+	Parameter C_HAS_SQRT bound to: 0 - type: integer 
+	Parameter C_HAS_COMPARE bound to: 0 - type: integer 
+	Parameter C_HAS_FIX_TO_FLT bound to: 0 - type: integer 
+	Parameter C_HAS_FLT_TO_FIX bound to: 0 - type: integer 
+	Parameter C_HAS_FLT_TO_FLT bound to: 0 - type: integer 
+	Parameter C_HAS_RECIP bound to: 0 - type: integer 
+	Parameter C_HAS_RECIP_SQRT bound to: 0 - type: integer 
+	Parameter C_HAS_ABSOLUTE bound to: 0 - type: integer 
+	Parameter C_HAS_LOGARITHM bound to: 0 - type: integer 
+	Parameter C_HAS_EXPONENTIAL bound to: 0 - type: integer 
+	Parameter C_HAS_FMA bound to: 0 - type: integer 
+	Parameter C_HAS_FMS bound to: 0 - type: integer 
+	Parameter C_HAS_UNFUSED_MULTIPLY_ADD bound to: 0 - type: integer 
+	Parameter C_HAS_UNFUSED_MULTIPLY_SUB bound to: 0 - type: integer 
+	Parameter C_HAS_UNFUSED_MULTIPLY_ACCUMULATOR_A bound to: 0 - type: integer 
+	Parameter C_HAS_UNFUSED_MULTIPLY_ACCUMULATOR_S bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_A bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_S bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_PRIMITIVE_A bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_PRIMITIVE_S bound to: 0 - type: integer 
+	Parameter C_A_WIDTH bound to: 32 - type: integer 
+	Parameter C_A_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_B_WIDTH bound to: 32 - type: integer 
+	Parameter C_B_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_C_WIDTH bound to: 32 - type: integer 
+	Parameter C_C_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_RESULT_WIDTH bound to: 32 - type: integer 
+	Parameter C_RESULT_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_COMPARE_OPERATION bound to: 8 - type: integer 
+	Parameter C_LATENCY bound to: 1 - type: integer 
+	Parameter C_OPTIMIZATION bound to: 1 - type: integer 
+	Parameter C_MULT_USAGE bound to: 3 - type: integer 
+	Parameter C_BRAM_USAGE bound to: 0 - type: integer 
+	Parameter C_RATE bound to: 1 - type: integer 
+	Parameter C_ACCUM_INPUT_MSB bound to: 32 - type: integer 
+	Parameter C_ACCUM_MSB bound to: 32 - type: integer 
+	Parameter C_ACCUM_LSB bound to: -31 - type: integer 
+	Parameter C_HAS_UNDERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_INVALID_OP bound to: 0 - type: integer 
+	Parameter C_HAS_DIVIDE_BY_ZERO bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUM_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUM_INPUT_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_ACLKEN bound to: 1 - type: integer 
+	Parameter C_HAS_ARESETN bound to: 0 - type: integer 
+	Parameter C_THROTTLE_SCHEME bound to: 3 - type: integer 
+	Parameter C_HAS_A_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_A_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_B bound to: 1 - type: integer 
+	Parameter C_HAS_B_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_B_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_C bound to: 0 - type: integer 
+	Parameter C_HAS_C_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_C_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_RESULT_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_RESULT_TLAST bound to: 0 - type: integer 
+	Parameter C_TLAST_RESOLUTION bound to: 0 - type: integer 
+	Parameter C_A_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_A_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_B_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_B_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_C_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_C_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_OPERATION_TDATA_WIDTH bound to: 8 - type: integer 
+	Parameter C_OPERATION_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_RESULT_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_RESULT_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_FIXED_DATA_UNSIGNED bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'floating_point_v7_1_8' declared at 'e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/83a3/hdl/floating_point_v7_1_vh_rfs.vhd:94214' bound to instance 'U0' of component 'floating_point_v7_1_8' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/ip/heartbeat_ap_fmul_1_max_dsp_32.vhd:210]
+INFO: [Synth 8-256] done synthesizing module 'heartbeat_ap_fmul_1_max_dsp_32' (18#1) [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/ip/heartbeat_ap_fmul_1_max_dsp_32.vhd:72]
+INFO: [Synth 8-256] done synthesizing module 'heartbeat_fmul_32bkb' (19#1) [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_fmul_32bkb.vhd:26]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 12 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'heartbeat_fdiv_32cud' declared at 'e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_fdiv_32cud.vhd:8' bound to instance 'heartbeat_fdiv_32cud_U2' of component 'heartbeat_fdiv_32cud' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat.vhd:470]
+INFO: [Synth 8-638] synthesizing module 'heartbeat_fdiv_32cud' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_fdiv_32cud.vhd:26]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 12 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'heartbeat_ap_fdiv_10_no_dsp_32' declared at 'e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/ip/heartbeat_ap_fdiv_10_no_dsp_32.vhd:59' bound to instance 'heartbeat_ap_fdiv_10_no_dsp_32_u' of component 'heartbeat_ap_fdiv_10_no_dsp_32' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_fdiv_32cud.vhd:56]
+INFO: [Synth 8-638] synthesizing module 'heartbeat_ap_fdiv_10_no_dsp_32' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/ip/heartbeat_ap_fdiv_10_no_dsp_32.vhd:72]
+	Parameter C_XDEVICEFAMILY bound to: spartan7 - type: string 
+	Parameter C_HAS_ADD bound to: 0 - type: integer 
+	Parameter C_HAS_SUBTRACT bound to: 0 - type: integer 
+	Parameter C_HAS_MULTIPLY bound to: 0 - type: integer 
+	Parameter C_HAS_DIVIDE bound to: 1 - type: integer 
+	Parameter C_HAS_SQRT bound to: 0 - type: integer 
+	Parameter C_HAS_COMPARE bound to: 0 - type: integer 
+	Parameter C_HAS_FIX_TO_FLT bound to: 0 - type: integer 
+	Parameter C_HAS_FLT_TO_FIX bound to: 0 - type: integer 
+	Parameter C_HAS_FLT_TO_FLT bound to: 0 - type: integer 
+	Parameter C_HAS_RECIP bound to: 0 - type: integer 
+	Parameter C_HAS_RECIP_SQRT bound to: 0 - type: integer 
+	Parameter C_HAS_ABSOLUTE bound to: 0 - type: integer 
+	Parameter C_HAS_LOGARITHM bound to: 0 - type: integer 
+	Parameter C_HAS_EXPONENTIAL bound to: 0 - type: integer 
+	Parameter C_HAS_FMA bound to: 0 - type: integer 
+	Parameter C_HAS_FMS bound to: 0 - type: integer 
+	Parameter C_HAS_UNFUSED_MULTIPLY_ADD bound to: 0 - type: integer 
+	Parameter C_HAS_UNFUSED_MULTIPLY_SUB bound to: 0 - type: integer 
+	Parameter C_HAS_UNFUSED_MULTIPLY_ACCUMULATOR_A bound to: 0 - type: integer 
+	Parameter C_HAS_UNFUSED_MULTIPLY_ACCUMULATOR_S bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_A bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_S bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_PRIMITIVE_A bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_PRIMITIVE_S bound to: 0 - type: integer 
+	Parameter C_A_WIDTH bound to: 32 - type: integer 
+	Parameter C_A_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_B_WIDTH bound to: 32 - type: integer 
+	Parameter C_B_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_C_WIDTH bound to: 32 - type: integer 
+	Parameter C_C_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_RESULT_WIDTH bound to: 32 - type: integer 
+	Parameter C_RESULT_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_COMPARE_OPERATION bound to: 8 - type: integer 
+	Parameter C_LATENCY bound to: 10 - type: integer 
+	Parameter C_OPTIMIZATION bound to: 1 - type: integer 
+	Parameter C_MULT_USAGE bound to: 0 - type: integer 
+	Parameter C_BRAM_USAGE bound to: 0 - type: integer 
+	Parameter C_RATE bound to: 1 - type: integer 
+	Parameter C_ACCUM_INPUT_MSB bound to: 32 - type: integer 
+	Parameter C_ACCUM_MSB bound to: 32 - type: integer 
+	Parameter C_ACCUM_LSB bound to: -31 - type: integer 
+	Parameter C_HAS_UNDERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_INVALID_OP bound to: 0 - type: integer 
+	Parameter C_HAS_DIVIDE_BY_ZERO bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUM_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUM_INPUT_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_ACLKEN bound to: 1 - type: integer 
+	Parameter C_HAS_ARESETN bound to: 0 - type: integer 
+	Parameter C_THROTTLE_SCHEME bound to: 3 - type: integer 
+	Parameter C_HAS_A_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_A_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_B bound to: 1 - type: integer 
+	Parameter C_HAS_B_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_B_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_C bound to: 0 - type: integer 
+	Parameter C_HAS_C_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_C_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_RESULT_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_RESULT_TLAST bound to: 0 - type: integer 
+	Parameter C_TLAST_RESOLUTION bound to: 0 - type: integer 
+	Parameter C_A_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_A_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_B_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_B_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_C_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_C_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_OPERATION_TDATA_WIDTH bound to: 8 - type: integer 
+	Parameter C_OPERATION_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_RESULT_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_RESULT_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_FIXED_DATA_UNSIGNED bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'floating_point_v7_1_8' declared at 'e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/83a3/hdl/floating_point_v7_1_vh_rfs.vhd:94214' bound to instance 'U0' of component 'floating_point_v7_1_8' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/ip/heartbeat_ap_fdiv_10_no_dsp_32.vhd:210]
+INFO: [Synth 8-256] done synthesizing module 'heartbeat_ap_fdiv_10_no_dsp_32' (26#1) [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/ip/heartbeat_ap_fdiv_10_no_dsp_32.vhd:72]
+INFO: [Synth 8-256] done synthesizing module 'heartbeat_fdiv_32cud' (27#1) [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_fdiv_32cud.vhd:26]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 4 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'heartbeat_uitofp_dEe' declared at 'e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_uitofp_dEe.vhd:8' bound to instance 'heartbeat_uitofp_dEe_U3' of component 'heartbeat_uitofp_dEe' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat.vhd:485]
+INFO: [Synth 8-638] synthesizing module 'heartbeat_uitofp_dEe' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_uitofp_dEe.vhd:24]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 4 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'heartbeat_ap_uitofp_2_no_dsp_32' declared at 'e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/ip/heartbeat_ap_uitofp_2_no_dsp_32.vhd:59' bound to instance 'heartbeat_ap_uitofp_2_no_dsp_32_u' of component 'heartbeat_ap_uitofp_2_no_dsp_32' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_uitofp_dEe.vhd:49]
+INFO: [Synth 8-638] synthesizing module 'heartbeat_ap_uitofp_2_no_dsp_32' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/ip/heartbeat_ap_uitofp_2_no_dsp_32.vhd:70]
+	Parameter C_XDEVICEFAMILY bound to: spartan7 - type: string 
+	Parameter C_HAS_ADD bound to: 0 - type: integer 
+	Parameter C_HAS_SUBTRACT bound to: 0 - type: integer 
+	Parameter C_HAS_MULTIPLY bound to: 0 - type: integer 
+	Parameter C_HAS_DIVIDE bound to: 0 - type: integer 
+	Parameter C_HAS_SQRT bound to: 0 - type: integer 
+	Parameter C_HAS_COMPARE bound to: 0 - type: integer 
+	Parameter C_HAS_FIX_TO_FLT bound to: 1 - type: integer 
+	Parameter C_HAS_FLT_TO_FIX bound to: 0 - type: integer 
+	Parameter C_HAS_FLT_TO_FLT bound to: 0 - type: integer 
+	Parameter C_HAS_RECIP bound to: 0 - type: integer 
+	Parameter C_HAS_RECIP_SQRT bound to: 0 - type: integer 
+	Parameter C_HAS_ABSOLUTE bound to: 0 - type: integer 
+	Parameter C_HAS_LOGARITHM bound to: 0 - type: integer 
+	Parameter C_HAS_EXPONENTIAL bound to: 0 - type: integer 
+	Parameter C_HAS_FMA bound to: 0 - type: integer 
+	Parameter C_HAS_FMS bound to: 0 - type: integer 
+	Parameter C_HAS_UNFUSED_MULTIPLY_ADD bound to: 0 - type: integer 
+	Parameter C_HAS_UNFUSED_MULTIPLY_SUB bound to: 0 - type: integer 
+	Parameter C_HAS_UNFUSED_MULTIPLY_ACCUMULATOR_A bound to: 0 - type: integer 
+	Parameter C_HAS_UNFUSED_MULTIPLY_ACCUMULATOR_S bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_A bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_S bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_PRIMITIVE_A bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_PRIMITIVE_S bound to: 0 - type: integer 
+	Parameter C_A_WIDTH bound to: 64 - type: integer 
+	Parameter C_A_FRACTION_WIDTH bound to: 0 - type: integer 
+	Parameter C_B_WIDTH bound to: 64 - type: integer 
+	Parameter C_B_FRACTION_WIDTH bound to: 0 - type: integer 
+	Parameter C_C_WIDTH bound to: 64 - type: integer 
+	Parameter C_C_FRACTION_WIDTH bound to: 0 - type: integer 
+	Parameter C_RESULT_WIDTH bound to: 32 - type: integer 
+	Parameter C_RESULT_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_COMPARE_OPERATION bound to: 8 - type: integer 
+	Parameter C_LATENCY bound to: 2 - type: integer 
+	Parameter C_OPTIMIZATION bound to: 1 - type: integer 
+	Parameter C_MULT_USAGE bound to: 0 - type: integer 
+	Parameter C_BRAM_USAGE bound to: 0 - type: integer 
+	Parameter C_RATE bound to: 1 - type: integer 
+	Parameter C_ACCUM_INPUT_MSB bound to: 32 - type: integer 
+	Parameter C_ACCUM_MSB bound to: 32 - type: integer 
+	Parameter C_ACCUM_LSB bound to: -31 - type: integer 
+	Parameter C_HAS_UNDERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_INVALID_OP bound to: 0 - type: integer 
+	Parameter C_HAS_DIVIDE_BY_ZERO bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUM_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUM_INPUT_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_ACLKEN bound to: 1 - type: integer 
+	Parameter C_HAS_ARESETN bound to: 0 - type: integer 
+	Parameter C_THROTTLE_SCHEME bound to: 3 - type: integer 
+	Parameter C_HAS_A_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_A_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_B bound to: 0 - type: integer 
+	Parameter C_HAS_B_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_B_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_C bound to: 0 - type: integer 
+	Parameter C_HAS_C_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_C_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_RESULT_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_RESULT_TLAST bound to: 0 - type: integer 
+	Parameter C_TLAST_RESOLUTION bound to: 0 - type: integer 
+	Parameter C_A_TDATA_WIDTH bound to: 64 - type: integer 
+	Parameter C_A_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_B_TDATA_WIDTH bound to: 64 - type: integer 
+	Parameter C_B_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_C_TDATA_WIDTH bound to: 64 - type: integer 
+	Parameter C_C_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_OPERATION_TDATA_WIDTH bound to: 8 - type: integer 
+	Parameter C_OPERATION_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_RESULT_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_RESULT_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_FIXED_DATA_UNSIGNED bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'floating_point_v7_1_8' declared at 'e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/83a3/hdl/floating_point_v7_1_vh_rfs.vhd:94214' bound to instance 'U0' of component 'floating_point_v7_1_8' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/ip/heartbeat_ap_uitofp_2_no_dsp_32.vhd:205]
+INFO: [Synth 8-256] done synthesizing module 'heartbeat_ap_uitofp_2_no_dsp_32' (35#1) [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/ip/heartbeat_ap_uitofp_2_no_dsp_32.vhd:70]
+INFO: [Synth 8-256] done synthesizing module 'heartbeat_uitofp_dEe' (36#1) [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_uitofp_dEe.vhd:24]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 4 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'heartbeat_sitofp_eOg' declared at 'e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_sitofp_eOg.vhd:8' bound to instance 'heartbeat_sitofp_eOg_U4' of component 'heartbeat_sitofp_eOg' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat.vhd:498]
+INFO: [Synth 8-638] synthesizing module 'heartbeat_sitofp_eOg' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_sitofp_eOg.vhd:24]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 4 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'heartbeat_ap_sitofp_2_no_dsp_32' declared at 'e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/ip/heartbeat_ap_sitofp_2_no_dsp_32.vhd:59' bound to instance 'heartbeat_ap_sitofp_2_no_dsp_32_u' of component 'heartbeat_ap_sitofp_2_no_dsp_32' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_sitofp_eOg.vhd:49]
+INFO: [Synth 8-638] synthesizing module 'heartbeat_ap_sitofp_2_no_dsp_32' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/ip/heartbeat_ap_sitofp_2_no_dsp_32.vhd:70]
+	Parameter C_XDEVICEFAMILY bound to: spartan7 - type: string 
+	Parameter C_HAS_ADD bound to: 0 - type: integer 
+	Parameter C_HAS_SUBTRACT bound to: 0 - type: integer 
+	Parameter C_HAS_MULTIPLY bound to: 0 - type: integer 
+	Parameter C_HAS_DIVIDE bound to: 0 - type: integer 
+	Parameter C_HAS_SQRT bound to: 0 - type: integer 
+	Parameter C_HAS_COMPARE bound to: 0 - type: integer 
+	Parameter C_HAS_FIX_TO_FLT bound to: 1 - type: integer 
+	Parameter C_HAS_FLT_TO_FIX bound to: 0 - type: integer 
+	Parameter C_HAS_FLT_TO_FLT bound to: 0 - type: integer 
+	Parameter C_HAS_RECIP bound to: 0 - type: integer 
+	Parameter C_HAS_RECIP_SQRT bound to: 0 - type: integer 
+	Parameter C_HAS_ABSOLUTE bound to: 0 - type: integer 
+	Parameter C_HAS_LOGARITHM bound to: 0 - type: integer 
+	Parameter C_HAS_EXPONENTIAL bound to: 0 - type: integer 
+	Parameter C_HAS_FMA bound to: 0 - type: integer 
+	Parameter C_HAS_FMS bound to: 0 - type: integer 
+	Parameter C_HAS_UNFUSED_MULTIPLY_ADD bound to: 0 - type: integer 
+	Parameter C_HAS_UNFUSED_MULTIPLY_SUB bound to: 0 - type: integer 
+	Parameter C_HAS_UNFUSED_MULTIPLY_ACCUMULATOR_A bound to: 0 - type: integer 
+	Parameter C_HAS_UNFUSED_MULTIPLY_ACCUMULATOR_S bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_A bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_S bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_PRIMITIVE_A bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_PRIMITIVE_S bound to: 0 - type: integer 
+	Parameter C_A_WIDTH bound to: 32 - type: integer 
+	Parameter C_A_FRACTION_WIDTH bound to: 0 - type: integer 
+	Parameter C_B_WIDTH bound to: 32 - type: integer 
+	Parameter C_B_FRACTION_WIDTH bound to: 0 - type: integer 
+	Parameter C_C_WIDTH bound to: 32 - type: integer 
+	Parameter C_C_FRACTION_WIDTH bound to: 0 - type: integer 
+	Parameter C_RESULT_WIDTH bound to: 32 - type: integer 
+	Parameter C_RESULT_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_COMPARE_OPERATION bound to: 8 - type: integer 
+	Parameter C_LATENCY bound to: 2 - type: integer 
+	Parameter C_OPTIMIZATION bound to: 1 - type: integer 
+	Parameter C_MULT_USAGE bound to: 0 - type: integer 
+	Parameter C_BRAM_USAGE bound to: 0 - type: integer 
+	Parameter C_RATE bound to: 1 - type: integer 
+	Parameter C_ACCUM_INPUT_MSB bound to: 32 - type: integer 
+	Parameter C_ACCUM_MSB bound to: 32 - type: integer 
+	Parameter C_ACCUM_LSB bound to: -31 - type: integer 
+	Parameter C_HAS_UNDERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_INVALID_OP bound to: 0 - type: integer 
+	Parameter C_HAS_DIVIDE_BY_ZERO bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUM_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUM_INPUT_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_ACLKEN bound to: 1 - type: integer 
+	Parameter C_HAS_ARESETN bound to: 0 - type: integer 
+	Parameter C_THROTTLE_SCHEME bound to: 3 - type: integer 
+	Parameter C_HAS_A_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_A_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_B bound to: 0 - type: integer 
+	Parameter C_HAS_B_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_B_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_C bound to: 0 - type: integer 
+	Parameter C_HAS_C_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_C_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_RESULT_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_RESULT_TLAST bound to: 0 - type: integer 
+	Parameter C_TLAST_RESOLUTION bound to: 0 - type: integer 
+	Parameter C_A_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_A_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_B_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_B_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_C_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_C_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_OPERATION_TDATA_WIDTH bound to: 8 - type: integer 
+	Parameter C_OPERATION_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_RESULT_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_RESULT_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_FIXED_DATA_UNSIGNED bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'floating_point_v7_1_8' declared at 'e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/83a3/hdl/floating_point_v7_1_vh_rfs.vhd:94214' bound to instance 'U0' of component 'floating_point_v7_1_8' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/ip/heartbeat_ap_sitofp_2_no_dsp_32.vhd:205]
+INFO: [Synth 8-256] done synthesizing module 'heartbeat_ap_sitofp_2_no_dsp_32' (37#1) [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/ip/heartbeat_ap_sitofp_2_no_dsp_32.vhd:70]
+INFO: [Synth 8-256] done synthesizing module 'heartbeat_sitofp_eOg' (38#1) [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_sitofp_eOg.vhd:24]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 4 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'heartbeat_sitofp_fYi' declared at 'e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_sitofp_fYi.vhd:8' bound to instance 'heartbeat_sitofp_fYi_U5' of component 'heartbeat_sitofp_fYi' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat.vhd:511]
+INFO: [Synth 8-638] synthesizing module 'heartbeat_sitofp_fYi' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_sitofp_fYi.vhd:24]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 4 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'heartbeat_ap_sitofp_2_no_dsp_32' declared at 'e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/ip/heartbeat_ap_sitofp_2_no_dsp_32.vhd:59' bound to instance 'heartbeat_ap_sitofp_2_no_dsp_32_u' of component 'heartbeat_ap_sitofp_2_no_dsp_32' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_sitofp_fYi.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'heartbeat_sitofp_fYi' (39#1) [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_sitofp_fYi.vhd:24]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 20 - type: integer 
+	Parameter din0_WIDTH bound to: 16 - type: integer 
+	Parameter din1_WIDTH bound to: 5 - type: integer 
+	Parameter dout_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-3491] module 'heartbeat_urem_16g8j' declared at 'e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_urem_16g8j.vhd:199' bound to instance 'heartbeat_urem_16g8j_U6' of component 'heartbeat_urem_16g8j' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat.vhd:524]
+INFO: [Synth 8-638] synthesizing module 'heartbeat_urem_16g8j' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_urem_16g8j.vhd:217]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 20 - type: integer 
+	Parameter din0_WIDTH bound to: 16 - type: integer 
+	Parameter din1_WIDTH bound to: 5 - type: integer 
+	Parameter dout_WIDTH bound to: 5 - type: integer 
+	Parameter in0_WIDTH bound to: 16 - type: integer 
+	Parameter in1_WIDTH bound to: 5 - type: integer 
+	Parameter out_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-3491] module 'heartbeat_urem_16g8j_div' declared at 'e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_urem_16g8j.vhd:102' bound to instance 'heartbeat_urem_16g8j_div_U' of component 'heartbeat_urem_16g8j_div' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_urem_16g8j.vhd:240]
+INFO: [Synth 8-638] synthesizing module 'heartbeat_urem_16g8j_div' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_urem_16g8j.vhd:119]
+	Parameter in0_WIDTH bound to: 16 - type: integer 
+	Parameter in1_WIDTH bound to: 5 - type: integer 
+	Parameter out_WIDTH bound to: 5 - type: integer 
+	Parameter in0_WIDTH bound to: 16 - type: integer 
+	Parameter in1_WIDTH bound to: 5 - type: integer 
+	Parameter out_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-3491] module 'heartbeat_urem_16g8j_div_u' declared at 'e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_urem_16g8j.vhd:9' bound to instance 'heartbeat_urem_16g8j_div_u_0' of component 'heartbeat_urem_16g8j_div_u' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_urem_16g8j.vhd:146]
+INFO: [Synth 8-638] synthesizing module 'heartbeat_urem_16g8j_div_u' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_urem_16g8j.vhd:34]
+	Parameter in0_WIDTH bound to: 16 - type: integer 
+	Parameter in1_WIDTH bound to: 5 - type: integer 
+	Parameter out_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'heartbeat_urem_16g8j_div_u' (40#1) [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_urem_16g8j.vhd:34]
+INFO: [Synth 8-256] done synthesizing module 'heartbeat_urem_16g8j_div' (41#1) [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_urem_16g8j.vhd:119]
+INFO: [Synth 8-256] done synthesizing module 'heartbeat_urem_16g8j' (42#1) [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_urem_16g8j.vhd:217]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 17 - type: integer 
+	Parameter din0_WIDTH bound to: 13 - type: integer 
+	Parameter din1_WIDTH bound to: 8 - type: integer 
+	Parameter dout_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'heartbeat_urem_13hbi' declared at 'e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_urem_13hbi.vhd:199' bound to instance 'heartbeat_urem_13hbi_U7' of component 'heartbeat_urem_13hbi' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat.vhd:541]
+INFO: [Synth 8-638] synthesizing module 'heartbeat_urem_13hbi' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_urem_13hbi.vhd:217]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 17 - type: integer 
+	Parameter din0_WIDTH bound to: 13 - type: integer 
+	Parameter din1_WIDTH bound to: 8 - type: integer 
+	Parameter dout_WIDTH bound to: 8 - type: integer 
+	Parameter in0_WIDTH bound to: 13 - type: integer 
+	Parameter in1_WIDTH bound to: 8 - type: integer 
+	Parameter out_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'heartbeat_urem_13hbi_div' declared at 'e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_urem_13hbi.vhd:102' bound to instance 'heartbeat_urem_13hbi_div_U' of component 'heartbeat_urem_13hbi_div' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_urem_13hbi.vhd:240]
+INFO: [Synth 8-638] synthesizing module 'heartbeat_urem_13hbi_div' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_urem_13hbi.vhd:119]
+	Parameter in0_WIDTH bound to: 13 - type: integer 
+	Parameter in1_WIDTH bound to: 8 - type: integer 
+	Parameter out_WIDTH bound to: 8 - type: integer 
+	Parameter in0_WIDTH bound to: 13 - type: integer 
+	Parameter in1_WIDTH bound to: 8 - type: integer 
+	Parameter out_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'heartbeat_urem_13hbi_div_u' declared at 'e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_urem_13hbi.vhd:9' bound to instance 'heartbeat_urem_13hbi_div_u_0' of component 'heartbeat_urem_13hbi_div_u' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_urem_13hbi.vhd:146]
+INFO: [Synth 8-638] synthesizing module 'heartbeat_urem_13hbi_div_u' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_urem_13hbi.vhd:34]
+	Parameter in0_WIDTH bound to: 13 - type: integer 
+	Parameter in1_WIDTH bound to: 8 - type: integer 
+	Parameter out_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'heartbeat_urem_13hbi_div_u' (43#1) [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_urem_13hbi.vhd:34]
+INFO: [Synth 8-256] done synthesizing module 'heartbeat_urem_13hbi_div' (44#1) [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_urem_13hbi.vhd:119]
+INFO: [Synth 8-256] done synthesizing module 'heartbeat_urem_13hbi' (45#1) [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_urem_13hbi.vhd:217]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 18 - type: integer 
+	Parameter din1_WIDTH bound to: 16 - type: integer 
+	Parameter dout_WIDTH bound to: 34 - type: integer 
+INFO: [Synth 8-3491] module 'heartbeat_mul_mulibs' declared at 'e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_mul_mulibs.vhd:31' bound to instance 'heartbeat_mul_mulibs_U8' of component 'heartbeat_mul_mulibs' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat.vhd:558]
+INFO: [Synth 8-638] synthesizing module 'heartbeat_mul_mulibs' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_mul_mulibs.vhd:44]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 18 - type: integer 
+	Parameter din1_WIDTH bound to: 16 - type: integer 
+	Parameter dout_WIDTH bound to: 34 - type: integer 
+INFO: [Synth 8-3491] module 'heartbeat_mul_mulibs_DSP48_0' declared at 'e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_mul_mulibs.vhd:6' bound to instance 'heartbeat_mul_mulibs_DSP48_0_U' of component 'heartbeat_mul_mulibs_DSP48_0' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_mul_mulibs.vhd:55]
+INFO: [Synth 8-638] synthesizing module 'heartbeat_mul_mulibs_DSP48_0' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_mul_mulibs.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'heartbeat_mul_mulibs_DSP48_0' (46#1) [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_mul_mulibs.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'heartbeat_mul_mulibs' (47#1) [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_mul_mulibs.vhd:44]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 15 - type: integer 
+	Parameter din1_WIDTH bound to: 13 - type: integer 
+	Parameter dout_WIDTH bound to: 28 - type: integer 
+INFO: [Synth 8-3491] module 'heartbeat_mul_muljbC' declared at 'e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_mul_muljbC.vhd:31' bound to instance 'heartbeat_mul_muljbC_U9' of component 'heartbeat_mul_muljbC' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat.vhd:570]
+INFO: [Synth 8-638] synthesizing module 'heartbeat_mul_muljbC' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_mul_muljbC.vhd:44]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 1 - type: integer 
+	Parameter din0_WIDTH bound to: 15 - type: integer 
+	Parameter din1_WIDTH bound to: 13 - type: integer 
+	Parameter dout_WIDTH bound to: 28 - type: integer 
+INFO: [Synth 8-3491] module 'heartbeat_mul_muljbC_DSP48_1' declared at 'e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_mul_muljbC.vhd:6' bound to instance 'heartbeat_mul_muljbC_DSP48_1_U' of component 'heartbeat_mul_muljbC_DSP48_1' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_mul_muljbC.vhd:55]
+INFO: [Synth 8-638] synthesizing module 'heartbeat_mul_muljbC_DSP48_1' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_mul_muljbC.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'heartbeat_mul_muljbC_DSP48_1' (48#1) [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_mul_muljbC.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'heartbeat_mul_muljbC' (49#1) [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_mul_muljbC.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'heartbeat' (50#1) [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'design_1_heartbeat_0_0' (51#1) [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ip/design_1_heartbeat_0_0/synth/design_1_heartbeat_0_0.vhd:70]
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized21 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized21 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized21 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized21 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized21 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized5 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized5 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized5 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized5 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized5 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized60 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized60 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized60 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized50 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized50 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized50 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized3 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized3 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized3 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized3 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized3 has unconnected port SINIT
+WARNING: [Synth 8-3331] design norm_zero_det__parameterized0 has unconnected port DATA[6]
+WARNING: [Synth 8-3331] design norm_zero_det__parameterized0 has unconnected port DIST[7]
+WARNING: [Synth 8-3331] design norm_zero_det__parameterized0 has unconnected port DIST[6]
+WARNING: [Synth 8-3331] design norm_zero_det__parameterized0 has unconnected port DIST[5]
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized17 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized17 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized17 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized17 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized17 has unconnected port SINIT
+WARNING: [Synth 8-3331] design carry_chain__parameterized11 has unconnected port B[31]
+WARNING: [Synth 8-3331] design flt_dec_op has unconnected port DEC_OP_STATE[11]
+WARNING: [Synth 8-3331] design flt_dec_op has unconnected port DEC_OP_STATE[10]
+WARNING: [Synth 8-3331] design flt_dec_op has unconnected port DEC_OP_STATE[9]
+WARNING: [Synth 8-3331] design flt_dec_op has unconnected port DEC_OP_STATE[8]
+WARNING: [Synth 8-3331] design flt_dec_op has unconnected port DIVIDE_BY_ZERO_IN
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized27 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized27 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized27 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized27 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized27 has unconnected port SINIT
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[30]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[29]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[28]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[27]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[26]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[25]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[24]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[23]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[22]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[21]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[20]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[19]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[18]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[17]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[16]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[15]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[14]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[13]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[12]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[11]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[10]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[9]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[8]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[7]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[6]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[5]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[4]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[3]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[2]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[1]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp__parameterized0 has unconnected port A[0]
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized85 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized85 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized85 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized85 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized85 has unconnected port SINIT
+WARNING: [Synth 8-3331] design carry_chain__parameterized10 has unconnected port B[11]
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized72 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized72 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized72 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized72 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized72 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized70 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized70 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized70 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized70 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized70 has unconnected port SINIT
+WARNING: [Synth 8-3331] design flt_round_bit has unconnected port NORMALIZE[1]
+WARNING: [Synth 8-3331] design flt_round_bit has unconnected port FIXED_POINT
+WARNING: [Synth 8-3331] design flt_round_bit has unconnected port FIX_MANT_SIGN
+WARNING: [Synth 8-3331] design flt_round_bit has unconnected port SIGN
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized23 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized23 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized23 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized23 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized23 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized13 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized13 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized13 has unconnected port SCLR
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 989.328 ; gain = 357.395
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 989.328 ; gain = 357.395
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 989.328 ; gain = 357.395
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 1890 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ip/design_1_heartbeat_0_0/constraints/heartbeat_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ip/design_1_heartbeat_0_0/constraints/heartbeat_ooc.xdc] for cell 'U0'
+Parsing XDC File [E:/XilinxV/Projects/project_12NewLast/project_12/project_12.runs/design_1_heartbeat_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [E:/XilinxV/Projects/project_12NewLast/project_12/project_12.runs/design_1_heartbeat_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1004.418 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.145 . Memory (MB): peak = 1015.324 ; gain = 10.906
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 1015.324 ; gain = 383.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7s100fgga676-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 1015.324 ; gain = 383.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U0. (constraint file  E:/XilinxV/Projects/project_12NewLast/project_12/project_12.runs/design_1_heartbeat_0_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 1015.324 ; gain = 383.391
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+WARNING: [Synth 8-3936] Found unconnected internal register 'remd_tmp_reg' and it is trimmed from '16' to '15' bits. [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_urem_16g8j.vhd:88]
+WARNING: [Synth 8-3936] Found unconnected internal register 'remd_tmp_reg' and it is trimmed from '13' to '12' bits. [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_urem_13hbi.vhd:88]
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:35 ; elapsed = 00:00:39 . Memory (MB): peak = 1015.324 ; gain = 383.391
+---------------------------------------------------------------------------------
+INFO: [Synth 8-223] decloning instance 'U0/heartbeat_fmul_32bkb_U1/heartbeat_ap_fmul_1_max_dsp_32_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized1) to 'U0/heartbeat_fmul_32bkb_U1/heartbeat_ap_fmul_1_max_dsp_32_u/U0/i_synth/DELAY_ACCUM_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'U0/heartbeat_fmul_32bkb_U1/heartbeat_ap_fmul_1_max_dsp_32_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized1) to 'U0/heartbeat_fmul_32bkb_U1/heartbeat_ap_fmul_1_max_dsp_32_u/U0/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'U0/heartbeat_fdiv_32cud_U2/heartbeat_ap_fdiv_10_no_dsp_32_u/U0/i_synth/DELAY_ACCUM_OVERFLOW' (delay__parameterized1) to 'U0/heartbeat_fdiv_32cud_U2/heartbeat_ap_fdiv_10_no_dsp_32_u/U0/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'U0/heartbeat_fdiv_32cud_U2/heartbeat_ap_fdiv_10_no_dsp_32_u/U0/i_synth/DIV_OP.SPD.OP/ROUND/EXTRA_LSB_BIT_DEL' (delay__parameterized1) to 'U0/heartbeat_fdiv_32cud_U2/heartbeat_ap_fdiv_10_no_dsp_32_u/U0/i_synth/DIV_OP.SPD.OP/ROUND/EXTRA_LSB_RND1_DEL'
+INFO: [Synth 8-223] decloning instance 'U0/heartbeat_fdiv_32cud_U2/heartbeat_ap_fdiv_10_no_dsp_32_u/U0/i_synth/DIV_OP.SPD.OP/ROUND/EXP_INC_DELAY' (delay__parameterized1) to 'U0/heartbeat_fdiv_32cud_U2/heartbeat_ap_fdiv_10_no_dsp_32_u/U0/i_synth/DIV_OP.SPD.OP/ROUND/EXP_INC_RND1_DELAY'
+INFO: [Synth 8-223] decloning instance 'U0/heartbeat_fdiv_32cud_U2/heartbeat_ap_fdiv_10_no_dsp_32_u/U0/i_synth/DIV_OP.SPD.OP/ROUND/EXP_IN_DELAY.EXP_IN_DEL' (delay__parameterized15) to 'U0/heartbeat_fdiv_32cud_U2/heartbeat_ap_fdiv_10_no_dsp_32_u/U0/i_synth/DIV_OP.SPD.OP/ROUND/EXP_RND2_DELAY.EXP_RND_DEL'
+INFO: [Synth 8-223] decloning instance 'U0/heartbeat_fdiv_32cud_U2/heartbeat_ap_fdiv_10_no_dsp_32_u/U0/i_synth/DIV_OP.SPD.OP/ROUND/EXP_IN_DELAY.EXP_OFF_OP_DEL' (delay__parameterized15) to 'U0/heartbeat_fdiv_32cud_U2/heartbeat_ap_fdiv_10_no_dsp_32_u/U0/i_synth/DIV_OP.SPD.OP/ROUND/EXP_RND2_DELAY.EXP_OFF_RND_DEL'
+INFO: [Synth 8-223] decloning instance 'U0/heartbeat_uitofp_dEe_U3/heartbeat_ap_uitofp_2_no_dsp_32_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized1) to 'U0/heartbeat_uitofp_dEe_U3/heartbeat_ap_uitofp_2_no_dsp_32_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO'
+INFO: [Synth 8-223] decloning instance 'U0/heartbeat_uitofp_dEe_U3/heartbeat_ap_uitofp_2_no_dsp_32_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized1) to 'U0/heartbeat_uitofp_dEe_U3/heartbeat_ap_uitofp_2_no_dsp_32_u/U0/i_synth/DELAY_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'U0/heartbeat_uitofp_dEe_U3/heartbeat_ap_uitofp_2_no_dsp_32_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized1) to 'U0/heartbeat_uitofp_dEe_U3/heartbeat_ap_uitofp_2_no_dsp_32_u/U0/i_synth/DELAY_UNDERFLOW'
+INFO: [Synth 8-223] decloning instance 'U0/heartbeat_uitofp_dEe_U3/heartbeat_ap_uitofp_2_no_dsp_32_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized1) to 'U0/heartbeat_uitofp_dEe_U3/heartbeat_ap_uitofp_2_no_dsp_32_u/U0/i_synth/DELAY_ACCUM_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'U0/heartbeat_uitofp_dEe_U3/heartbeat_ap_uitofp_2_no_dsp_32_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized1) to 'U0/heartbeat_uitofp_dEe_U3/heartbeat_ap_uitofp_2_no_dsp_32_u/U0/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'U0/heartbeat_uitofp_dEe_U3/heartbeat_ap_uitofp_2_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXTRA_LSB_BIT_DEL' (delay__parameterized1) to 'U0/heartbeat_uitofp_dEe_U3/heartbeat_ap_uitofp_2_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXTRA_LSB_RND1_DEL'
+INFO: [Synth 8-223] decloning instance 'U0/heartbeat_uitofp_dEe_U3/heartbeat_ap_uitofp_2_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_INC_DELAY' (delay__parameterized1) to 'U0/heartbeat_uitofp_dEe_U3/heartbeat_ap_uitofp_2_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_INC_RND1_DELAY'
+INFO: [Synth 8-223] decloning instance 'U0/heartbeat_uitofp_dEe_U3/heartbeat_ap_uitofp_2_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_IN_DELAY.EXP_IN_DEL' (delay__parameterized15) to 'U0/heartbeat_uitofp_dEe_U3/heartbeat_ap_uitofp_2_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_RND2_DELAY.EXP_RND_DEL'
+INFO: [Synth 8-223] decloning instance 'U0/heartbeat_uitofp_dEe_U3/heartbeat_ap_uitofp_2_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_IN_DELAY.EXP_OFF_OP_DEL' (delay__parameterized15) to 'U0/heartbeat_uitofp_dEe_U3/heartbeat_ap_uitofp_2_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_RND2_DELAY.EXP_OFF_RND_DEL'
+INFO: [Synth 8-223] decloning instance 'heartbeat_ap_sitofp_2_no_dsp_32:/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized1) to 'heartbeat_ap_sitofp_2_no_dsp_32:/U0/i_synth/DELAY_DIVIDE_BY_ZERO'
+INFO: [Synth 8-223] decloning instance 'heartbeat_ap_sitofp_2_no_dsp_32:/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized1) to 'heartbeat_ap_sitofp_2_no_dsp_32:/U0/i_synth/DELAY_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'heartbeat_ap_sitofp_2_no_dsp_32:/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized1) to 'heartbeat_ap_sitofp_2_no_dsp_32:/U0/i_synth/DELAY_UNDERFLOW'
+INFO: [Synth 8-223] decloning instance 'heartbeat_ap_sitofp_2_no_dsp_32:/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized1) to 'heartbeat_ap_sitofp_2_no_dsp_32:/U0/i_synth/DELAY_ACCUM_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'heartbeat_ap_sitofp_2_no_dsp_32:/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized1) to 'heartbeat_ap_sitofp_2_no_dsp_32:/U0/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'heartbeat_ap_sitofp_2_no_dsp_32:/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXTRA_LSB_BIT_DEL' (delay__parameterized1) to 'heartbeat_ap_sitofp_2_no_dsp_32:/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXTRA_LSB_RND1_DEL'
+INFO: [Synth 8-223] decloning instance 'heartbeat_ap_sitofp_2_no_dsp_32:/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_INC_DELAY' (delay__parameterized1) to 'heartbeat_ap_sitofp_2_no_dsp_32:/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_INC_RND1_DELAY'
+INFO: [Synth 8-223] decloning instance 'heartbeat_ap_sitofp_2_no_dsp_32:/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_IN_DELAY.EXP_IN_DEL' (delay__parameterized15) to 'heartbeat_ap_sitofp_2_no_dsp_32:/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_RND2_DELAY.EXP_RND_DEL'
+INFO: [Synth 8-223] decloning instance 'heartbeat_ap_sitofp_2_no_dsp_32:/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_IN_DELAY.EXP_OFF_OP_DEL' (delay__parameterized15) to 'heartbeat_ap_sitofp_2_no_dsp_32:/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_RND2_DELAY.EXP_OFF_RND_DEL'
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 160 (col length:80)
+BRAMs: 240 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "FIX_TO_FLT_OP.SPD.OP/LZE/enc_chunk" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-4471] merging register 'heartbeat_fdiv_32cud_U2/ce_r_reg' into 'heartbeat_fmul_32bkb_U1/ce_r_reg' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_fdiv_32cud.vhd:70]
+INFO: [Synth 8-4471] merging register 'heartbeat_uitofp_dEe_U3/ce_r_reg' into 'heartbeat_fmul_32bkb_U1/ce_r_reg' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_uitofp_dEe.vhd:61]
+INFO: [Synth 8-4471] merging register 'heartbeat_sitofp_eOg_U4/ce_r_reg' into 'heartbeat_fmul_32bkb_U1/ce_r_reg' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_sitofp_eOg.vhd:61]
+INFO: [Synth 8-4471] merging register 'heartbeat_sitofp_fYi_U5/ce_r_reg' into 'heartbeat_fmul_32bkb_U1/ce_r_reg' [e:/XilinxV/Projects/project_12NewLast/project_12/project_12.srcs/sources_1/bd/design_1/ipshared/e291/hdl/vhdl/heartbeat_sitofp_fYi.vhd:61]
+INFO: [Synth 8-3886] merging instance 'U0/sext_ln11_reg_545_reg[7]' (FDE) to 'U0/sext_ln11_reg_545_reg[8]'
+INFO: [Synth 8-3886] merging instance 'U0/sext_ln11_reg_545_reg[8]' (FDE) to 'U0/sext_ln11_reg_545_reg[9]'
+INFO: [Synth 8-3886] merging instance 'U0/sext_ln11_reg_545_reg[9]' (FDE) to 'U0/sext_ln11_reg_545_reg[10]'
+INFO: [Synth 8-3886] merging instance 'U0/sext_ln11_reg_545_reg[10]' (FDE) to 'U0/sext_ln11_reg_545_reg[11]'
+INFO: [Synth 8-3886] merging instance 'U0/sext_ln11_reg_545_reg[11]' (FDE) to 'U0/sext_ln11_reg_545_reg[12]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\sext_ln11_reg_545_reg[12] )
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_urem_13hbi_U7/heartbeat_urem_13hbi_div_U/divisor0_reg[0]' (FD) to 'U0/heartbeat_urem_13hbi_U7/heartbeat_urem_13hbi_div_U/divisor0_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_urem_13hbi_U7/heartbeat_urem_13hbi_div_U/heartbeat_urem_13hbi_div_u_0/divisor0_reg[0]' (FDE) to 'U0/heartbeat_urem_13hbi_U7/heartbeat_urem_13hbi_div_U/heartbeat_urem_13hbi_div_u_0/divisor0_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_urem_13hbi_U7/heartbeat_urem_13hbi_div_U/divisor0_reg[1]' (FD) to 'U0/heartbeat_urem_13hbi_U7/heartbeat_urem_13hbi_div_U/divisor0_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_urem_13hbi_U7/heartbeat_urem_13hbi_div_U/divisor0_reg[2]' (FD) to 'U0/heartbeat_urem_13hbi_U7/heartbeat_urem_13hbi_div_U/divisor0_reg[6]'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_urem_13hbi_U7/heartbeat_urem_13hbi_div_U/divisor0_reg[3]' (FD) to 'U0/heartbeat_urem_13hbi_U7/heartbeat_urem_13hbi_div_U/divisor0_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_urem_13hbi_U7/heartbeat_urem_13hbi_div_U/divisor0_reg[4]' (FD) to 'U0/heartbeat_urem_13hbi_U7/heartbeat_urem_13hbi_div_U/divisor0_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_urem_13hbi_U7/heartbeat_urem_13hbi_div_U/divisor0_reg[5]' (FD) to 'U0/heartbeat_urem_13hbi_U7/heartbeat_urem_13hbi_div_U/divisor0_reg[6]'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_urem_13hbi_U7/heartbeat_urem_13hbi_div_U/divisor0_reg[6]' (FD) to 'U0/heartbeat_fmul_32bkb_U1/ce_r_reg'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_urem_13hbi_U7/heartbeat_urem_13hbi_div_U/divisor0_reg[7]' (FD) to 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_urem_16g8j_U6/heartbeat_urem_16g8j_div_U/divisor0_reg[0]' (FD) to 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_urem_13hbi_U7/heartbeat_urem_13hbi_div_U/heartbeat_urem_13hbi_div_u_0/divisor0_reg[1]' (FDE) to 'U0/heartbeat_urem_13hbi_U7/heartbeat_urem_13hbi_div_U/heartbeat_urem_13hbi_div_u_0/divisor0_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_urem_13hbi_U7/heartbeat_urem_13hbi_div_U/heartbeat_urem_13hbi_div_u_0/divisor0_reg[2]' (FDE) to 'U0/heartbeat_urem_13hbi_U7/heartbeat_urem_13hbi_div_U/heartbeat_urem_13hbi_div_u_0/divisor0_reg[5]'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_urem_13hbi_U7/heartbeat_urem_13hbi_div_U/heartbeat_urem_13hbi_div_u_0/divisor0_reg[3]' (FDE) to 'U0/heartbeat_urem_13hbi_U7/heartbeat_urem_13hbi_div_U/heartbeat_urem_13hbi_div_u_0/divisor0_reg[4]'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_urem_13hbi_U7/heartbeat_urem_13hbi_div_U/heartbeat_urem_13hbi_div_u_0/divisor0_reg[4]' (FDE) to 'U0/heartbeat_urem_13hbi_U7/heartbeat_urem_13hbi_div_U/heartbeat_urem_13hbi_div_u_0/divisor0_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_urem_13hbi_U7/heartbeat_urem_13hbi_div_U/heartbeat_urem_13hbi_div_u_0/divisor0_reg[5]' (FDE) to 'U0/heartbeat_urem_13hbi_U7/heartbeat_urem_13hbi_div_U/heartbeat_urem_13hbi_div_u_0/divisor0_reg[6]'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_urem_16g8j_U6/heartbeat_urem_16g8j_div_U/divisor0_reg[1]' (FD) to 'U0/heartbeat_fmul_32bkb_U1/ce_r_reg'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_urem_16g8j_U6/heartbeat_urem_16g8j_div_U/divisor0_reg[2]' (FD) to 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_urem_16g8j_U6/heartbeat_urem_16g8j_div_U/divisor0_reg[3]' (FD) to 'U0/heartbeat_fmul_32bkb_U1/ce_r_reg'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_urem_16g8j_U6/heartbeat_urem_16g8j_div_U/divisor0_reg[4]' (FD) to 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_urem_16g8j_U6/heartbeat_urem_16g8j_div_U/heartbeat_urem_16g8j_div_u_0/divisor0_reg[1]' (FDE) to 'U0/heartbeat_urem_16g8j_U6/heartbeat_urem_16g8j_div_U/heartbeat_urem_16g8j_div_u_0/divisor0_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_urem_16g8j_U6/heartbeat_urem_16g8j_div_U/heartbeat_urem_16g8j_div_u_0/divisor0_reg[2]' (FDE) to 'U0/heartbeat_urem_16g8j_U6/heartbeat_urem_16g8j_div_U/heartbeat_urem_16g8j_div_u_0/divisor0_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_urem_16g8j_U6/heartbeat_urem_16g8j_div_U/heartbeat_urem_16g8j_div_u_0/divisor0_reg[4]' (FDE) to 'U0/heartbeat_urem_16g8j_U6/heartbeat_urem_16g8j_div_U/heartbeat_urem_16g8j_div_u_0/divisor0_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_uitofp_dEe_U3/heartbeat_ap_uitofp_2_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/EXP/a_is_signed.IP_SIGN_DELAY/i_pipe/opt_has_pipe.first_q_reg[0]' (FDE) to 'U0/heartbeat_uitofp_dEe_U3/heartbeat_ap_uitofp_2_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/NEED_Z_DET.Z_DET/ENCODE[1].DIST_OVER_DEL/i_pipe/opt_has_pipe.first_q_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/trunc_ln6_1_reg_521_reg[3]' (FDE) to 'U0/trunc_ln6_reg_516_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/trunc_ln6_1_reg_521_reg[0]' (FDE) to 'U0/trunc_ln6_reg_516_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/trunc_ln6_1_reg_521_reg[1]' (FDE) to 'U0/trunc_ln6_reg_516_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U0/trunc_ln6_1_reg_521_reg[2]' (FDE) to 'U0/trunc_ln6_reg_516_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\heartbeat_uitofp_dEe_U3/heartbeat_ap_uitofp_2_no_dsp_32_u/U0 /i_synth/\FIX_TO_FLT_OP.SPD.OP/NEED_Z_DET.Z_DET/ENCODE[1].DIST_OVER_DEL/i_pipe/opt_has_pipe.first_q_reg[0] )
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_fdiv_32cud_U2/heartbeat_ap_fdiv_10_no_dsp_32_u/U0/i_synth/DIV_OP.SPD.OP/EXP/NORMALIZE_UP_DEL/i_pipe/opt_has_pipe.first_q_reg[0]' (FDE) to 'U0/heartbeat_fdiv_32cud_U2/heartbeat_ap_fdiv_10_no_dsp_32_u/U0/i_synth/DIV_OP.SPD.OP/MANT_DIV/RT[2].Q_DEL/i_pipe/opt_has_pipe.first_q_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[31]' (FD) to 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[29]' (FD) to 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[30]' (FD) to 'U0/heartbeat_fmul_32bkb_U1/ce_r_reg'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[28]' (FD) to 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[27]' (FD) to 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[26]' (FD) to 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[25]' (FD) to 'U0/heartbeat_fmul_32bkb_U1/ce_r_reg'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[24]' (FD) to 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[23]' (FD) to 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[5]' (FD) to 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[0]' (FD) to 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[1]' (FD) to 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[2]'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[2]' (FD) to 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[3]' (FD) to 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[4]'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[4]' (FD) to 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[6]'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[11]' (FD) to 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[6]'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[6]' (FD) to 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[7]' (FD) to 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[8]'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[8]' (FD) to 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[9]'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[9]' (FD) to 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[10]'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[10]' (FD) to 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[12]'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[17]' (FD) to 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[12]'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[12]' (FD) to 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[13]'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[13]' (FD) to 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[14]'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[14]' (FD) to 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[15]'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[15]' (FD) to 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[16]'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[16]' (FD) to 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[18]'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[18]' (FD) to 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[19]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\heartbeat_fmul_32bkb_U1/din1_buf1_reg[19] )
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[20]' (FD) to 'U0/heartbeat_fmul_32bkb_U1/ce_r_reg'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[21]' (FD) to 'U0/heartbeat_fmul_32bkb_U1/ce_r_reg'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[22]' (FD) to 'U0/heartbeat_fmul_32bkb_U1/ce_r_reg'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/\heartbeat_fmul_32bkb_U1/ce_r_reg )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/\heartbeat_urem_13hbi_U7/heartbeat_urem_13hbi_div_U/heartbeat_urem_13hbi_div_u_0/divisor0_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\heartbeat_urem_13hbi_U7/heartbeat_urem_13hbi_div_U/heartbeat_urem_13hbi_div_u_0/divisor0_reg[7] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/\heartbeat_urem_16g8j_U6/heartbeat_urem_16g8j_div_U/heartbeat_urem_16g8j_div_u_0/divisor0_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\heartbeat_urem_16g8j_U6/heartbeat_urem_16g8j_div_U/heartbeat_urem_16g8j_div_u_0/divisor0_reg[0] )
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_fmul_32bkb_U1/din1_buf1_reg[19]' (FD) to 'U0/heartbeat_uitofp_dEe_U3/dout_r_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\heartbeat_uitofp_dEe_U3/dout_r_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\tmp_2_reg_598_reg[31] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:46 ; elapsed = 00:00:50 . Memory (MB): peak = 1015.324 ; gain = 383.391
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:00 ; elapsed = 00:01:03 . Memory (MB): peak = 1072.098 ; gain = 440.164
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:01 ; elapsed = 00:01:05 . Memory (MB): peak = 1098.516 ; gain = 466.582
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_sitofp_fYi_U5/heartbeat_ap_sitofp_2_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/OP/RESULT_REG.NORMAL.exp_op_reg[5]' (FDRE) to 'U0/heartbeat_sitofp_fYi_U5/heartbeat_ap_sitofp_2_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/OP/RESULT_REG.NORMAL.exp_op_reg[6]'
+INFO: [Synth 8-3886] merging instance 'U0/heartbeat_sitofp_eOg_U4/heartbeat_ap_sitofp_2_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/OP/RESULT_REG.NORMAL.exp_op_reg[5]' (FDRE) to 'U0/heartbeat_sitofp_eOg_U4/heartbeat_ap_sitofp_2_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/OP/RESULT_REG.NORMAL.exp_op_reg[6]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_1_reg_588_reg[28]' (FDE) to 'U0/tmp_1_reg_588_reg[29]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_reg_583_reg[28]' (FDE) to 'U0/tmp_reg_583_reg[29]'
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:04 ; elapsed = 00:01:07 . Memory (MB): peak = 1102.285 ; gain = 470.352
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:06 ; elapsed = 00:01:10 . Memory (MB): peak = 1110.395 ; gain = 478.461
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:06 ; elapsed = 00:01:10 . Memory (MB): peak = 1110.395 ; gain = 478.461
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:07 ; elapsed = 00:01:11 . Memory (MB): peak = 1110.395 ; gain = 478.461
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:07 ; elapsed = 00:01:11 . Memory (MB): peak = 1110.395 ; gain = 478.461
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:07 ; elapsed = 00:01:11 . Memory (MB): peak = 1110.395 ; gain = 478.461
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:07 ; elapsed = 00:01:11 . Memory (MB): peak = 1110.395 ; gain = 478.461
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |CARRY4    |    24|
+|2     |DSP48E1   |     1|
+|3     |DSP48E1_1 |     1|
+|4     |DSP48E1_2 |     1|
+|5     |DSP48E1_4 |     1|
+|6     |DSP48E1_5 |     1|
+|7     |LUT1      |    52|
+|8     |LUT2      |   286|
+|9     |LUT3      |   952|
+|10    |LUT4      |   148|
+|11    |LUT5      |   142|
+|12    |LUT6      |   324|
+|13    |MUXCY     |   993|
+|14    |MUXF7     |    59|
+|15    |RAM16X1D  |     8|
+|16    |SRL16E    |    35|
+|17    |XORCY     |   865|
+|18    |FDRE      |  1359|
+|19    |FDSE      |     4|
++------+----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:07 ; elapsed = 00:01:11 . Memory (MB): peak = 1110.395 ; gain = 478.461
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 435 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:39 ; elapsed = 00:01:06 . Memory (MB): peak = 1110.395 ; gain = 452.465
+Synthesis Optimization Complete : Time (s): cpu = 00:01:07 ; elapsed = 00:01:11 . Memory (MB): peak = 1110.395 ; gain = 478.461
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 1954 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1124.473 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 285 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 277 instances
+  RAM16X1D => RAM32X1D (RAMD32, RAMD32): 8 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+249 Infos, 102 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:17 ; elapsed = 00:01:22 . Memory (MB): peak = 1124.473 ; gain = 733.906
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1124.473 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'E:/XilinxV/Projects/project_12NewLast/project_12/project_12.runs/design_1_heartbeat_0_0_synth_1/design_1_heartbeat_0_0.dcp' has been generated.
+WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_heartbeat_0_0, cache-ID = 9efa9c9c1d18413f
+INFO: [Coretcl 2-1174] Renamed 266 cell refs.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1124.473 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'E:/XilinxV/Projects/project_12NewLast/project_12/project_12.runs/design_1_heartbeat_0_0_synth_1/design_1_heartbeat_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_heartbeat_0_0_utilization_synth.rpt -pb design_1_heartbeat_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Jun  6 18:09:54 2023...

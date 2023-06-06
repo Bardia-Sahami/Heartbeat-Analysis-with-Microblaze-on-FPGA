@@ -1,0 +1,48 @@
+19:14:43 INFO  : Registering command handlers for SDK TCF services
+19:14:44 INFO  : Launching XSCT server: xsct.bat -interactive E:\XilinxV\Projects\project_12NewLast\project_12\project_12.sdk\temp_xsdb_launch_script.tcl
+19:14:47 INFO  : XSCT server has started successfully.
+19:14:47 INFO  : Successfully done setting XSCT server connection channel  
+19:14:47 INFO  : Successfully done setting SDK workspace  
+19:14:47 INFO  : Processing command line option -hwspec E:/XilinxV/Projects/project_12NewLast/project_12/project_12.sdk/design_1_wrapper.hdf.
+19:53:37 INFO  : Registering command handlers for SDK TCF services
+19:53:37 INFO  : Launching XSCT server: xsct.bat -interactive E:\XilinxV\Projects\project_12NewLast\project_12\project_12.sdk\temp_xsdb_launch_script.tcl
+19:53:40 INFO  : XSCT server has started successfully.
+19:53:41 INFO  : Successfully done setting XSCT server connection channel  
+19:53:41 INFO  : Successfully done setting SDK workspace  
+19:53:41 INFO  : Processing command line option -hwspec E:/XilinxV/Projects/project_12NewLast/project_12/project_12.sdk/design_1_wrapper.hdf.
+19:53:41 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+19:53:43 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1686063340773,  Project:1686062668046
+19:53:43 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from E:/XilinxV/Projects/project_12NewLast/project_12/project_12.sdk/design_1_wrapper.hdf.
+19:53:43 INFO  : Copied contents of E:/XilinxV/Projects/project_12NewLast/project_12/project_12.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+19:53:44 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+19:53:45 INFO  : 
+19:53:47 INFO  : Updating hardware inferred compiler options for Micro.
+19:53:47 INFO  : Clearing existing target manager status.
+20:01:36 INFO  : Registering command handlers for SDK TCF services
+20:01:37 INFO  : Launching XSCT server: xsct.bat -interactive E:\XilinxV\Projects\project_12NewLast\project_12\project_12.sdk\temp_xsdb_launch_script.tcl
+20:01:40 INFO  : XSCT server has started successfully.
+20:01:41 INFO  : Successfully done setting XSCT server connection channel  
+20:01:41 INFO  : Processing command line option -hwspec E:/XilinxV/Projects/project_12NewLast/project_12/project_12.sdk/design_1_wrapper.hdf.
+20:01:41 INFO  : Successfully done setting SDK workspace  
+20:01:41 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+20:01:43 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1686065482074,  Project:1686063340773
+20:01:43 INFO  : The hardware specification for project 'design_1_wrapper_hw_platform_0' is different from E:/XilinxV/Projects/project_12NewLast/project_12/project_12.sdk/design_1_wrapper.hdf.
+20:01:43 INFO  : Copied contents of E:/XilinxV/Projects/project_12NewLast/project_12/project_12.sdk/design_1_wrapper.hdf into \design_1_wrapper_hw_platform_0\system.hdf.
+20:01:44 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+20:01:45 ERROR : Error updating BSP project MSS files.
+20:01:46 ERROR : Error updating hardware inferred compiler settings.
+20:01:46 INFO  : Clearing existing target manager status.
+20:02:16 INFO  : Registering command handlers for SDK TCF services
+20:02:17 INFO  : Launching XSCT server: xsct.bat -interactive E:\XilinxV\Projects\project_12NewLast\project_12\project_12.sdk\temp_xsdb_launch_script.tcl
+20:02:20 INFO  : XSCT server has started successfully.
+20:02:20 INFO  : Successfully done setting XSCT server connection channel  
+20:02:20 INFO  : Successfully done setting SDK workspace  
+20:02:20 INFO  : Processing command line option -hwspec E:/XilinxV/Projects/project_12NewLast/project_12/project_12.sdk/design_1_wrapper.hdf.
+20:02:20 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+00:20:08 INFO  : Registering command handlers for SDK TCF services
+00:20:09 INFO  : Launching XSCT server: xsct.bat -interactive E:\XilinxV\Projects\project_12NewLast\project_12\project_12.sdk\temp_xsdb_launch_script.tcl
+00:20:12 INFO  : XSCT server has started successfully.
+00:20:13 INFO  : Successfully done setting XSCT server connection channel  
+00:20:13 INFO  : Successfully done setting SDK workspace  
+00:20:13 INFO  : Processing command line option -hwspec E:/XilinxV/Projects/project_12NewLast/project_12/project_12.sdk/design_1_wrapper.hdf.
+00:20:13 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.

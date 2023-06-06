@@ -1,0 +1,140 @@
+#include "xparameters.h"
+#include "xgpio.h"
+#include "xil_types.h"
+
+
+#define DEVICE_ID  XPAR_AXI_GPIO_0_DEVICE_ID
+#define CTRL1_DEVICE_ID  XPAR_AXI_GPIO_1_DEVICE_ID
+#define CTRL2_DEVICE_ID  XPAR_AXI_GPIO_2_DEVICE_ID
+
+
+XGpio inputGpio, outputGpio, inputCtrl1, outputCtrl1, inputCtrl2, outputCtrl2;
+
+void toSevenSeg (int num, int ctrl) {
+	// MSB (bit 7th) is the select bit (ctrl), 6..0 are data
+	if (ctrl == 0) {
+		if (num == 0)
+			XGpio_DiscreteWrite(&outputGpio, 2, 0x01);
+		else if (num == 1)
+			XGpio_DiscreteWrite(&outputGpio, 2, 0x4F);
+		else if (num == 2)
+			XGpio_DiscreteWrite(&outputGpio, 2, 0x12);
+		else if (num == 3)
+			XGpio_DiscreteWrite(&outputGpio, 2, 0x06);
+		else if (num == 4)
+			XGpio_DiscreteWrite(&outputGpio, 2, 0x4C);
+		else if (num == 5)
+			XGpio_DiscreteWrite(&outputGpio, 2, 0x24);
+		else if (num == 6)
+			XGpio_DiscreteWrite(&outputGpio, 2, 0x20);
+		else if (num == 7)
+			XGpio_DiscreteWrite(&outputGpio, 2, 0x0F);
+		else if (num == 8)
+			XGpio_DiscreteWrite(&outputGpio, 2, 0x00);
+		else if (num == 9)
+			XGpio_DiscreteWrite(&outputGpio, 2, 0x04);
+		else
+			XGpio_DiscreteWrite(&outputGpio, 2, 0x00);
+
+	} else if (ctrl == 1) {
+		if (num == 0)
+			XGpio_DiscreteWrite(&outputGpio, 2, 0x81);
+		else if (num == 1)
+			XGpio_DiscreteWrite(&outputGpio,2, 0xCF);
+		else if (num == 2)
+			XGpio_DiscreteWrite(&outputGpio, 2, 0x92);
+		else if (num == 3)
+			XGpio_DiscreteWrite(&outputGpio,2, 0x86);
+		else if (num == 4)
+			XGpio_DiscreteWrite(&outputGpio, 2, 0xCC);
+		else if (num == 5)
+			XGpio_DiscreteWrite(&outputGpio, 2, 0xA4);
+		else if (num == 6)
+			XGpio_DiscreteWrite(&outputGpio, 2, 0xA0);
+		else if (num == 7)
+			XGpio_DiscreteWrite(&outputGpio, 2, 0x8F);
+		else if (num == 8)
+			XGpio_DiscreteWrite(&outputGpio, 2, 0x80);
+		else if (num == 9)
+			XGpio_DiscreteWrite(&outputGpio, 2, 0x84);
+		else
+			XGpio_DiscreteWrite(&outputGpio, 2, 0x00);
+	}
+}
+
+int main () {
+
+	 // General Input/Output
+	 XGpio_Initialize(&inputGpio, DEVICE_ID);
+	 XGpio_Initialize(&outputGpio, DEVICE_ID);
+
+	 XGpio_SetDataDirection(&inputGpio, 1, 0xFFFF);
+	 XGpio_SetDataDirection(&outputGpio, 2, 0x00);
+
+	 // Controlling GPIO 1
+	 XGpio_Initialize(&inputCtrl1, CTRL1_DEVICE_ID);
+	 XGpio_Initialize(&outputCtrl1, CTRL1_DEVICE_ID);
+
+	 XGpio_SetDataDirection(&inputCtrl1, 1, 0x1);
+	 XGpio_SetDataDirection(&outputCtrl1, 2, 0x0);
+
+	 // Controlling GPIO 2
+	 XGpio_Initialize(&inputCtrl2, CTRL2_DEVICE_ID);
+	 XGpio_Initialize(&outputCtrl2, CTRL2_DEVICE_ID);
+
+	 XGpio_SetDataDirection(&inputCtrl2, 1, 0x1);
+	 XGpio_SetDataDirection(&outputCtrl2, 2, 0x0);
+
+//	XGpio_DiscreteWrite(&outputGpio, 2, 0x3f);
+
+
+	while (1) {
+		usleep(10);
+
+		// Start IP Core 1:
+		XGpio_DiscreteWrite(&outputCtrl1, 2, 0x1);
+		u32 inputCtrl1Data = XGpio_DiscreteRead(&inputCtrl1, 1);
+
+		// Check when data of IP Core 1 is ready:
+		while (inputCtrl1Data == 0) {
+			inputCtrl1Data = XGpio_DiscreteRead(&inputCtrl1, 1);
+		}
+
+		// Start IP Core 2:
+		XGpio_DiscreteWrite(&outputCtrl2, 2, 0x1);
+		u32 inputCtrl2Data = XGpio_DiscreteRead(&inputCtrl2, 1);
+
+		// Check when data of IP Core 1 is ready:
+		while (inputCtrl2Data == 0) {
+			inputCtrl2Data = XGpio_DiscreteRead(&inputCtrl2, 1);
+		}
+
+
+		// Read Data from Input
+		u32 inputData = XGpio_DiscreteRead(&inputGpio, 1);
+
+		// Convert Data to Decimal
+		int decimalValue = 0;
+		int bitValue = 1;
+		for (int i = 0; i < 32; i++) {
+			if ((inputData & (1 << i)) != 0) {
+				decimalValue += bitValue;
+			}
+			bitValue *= 2;
+		}
+
+		// Write Data on Seven Segment
+		int firstNum = decimalValue % 10;
+		int secondNum = decimalValue / 10;
+		usleep(5);
+		toSevenSeg(firstNum, 0);
+		usleep(35);
+		toSevenSeg(secondNum, 1);
+
+
+	}
+
+
+
+	return XST_SUCCESS;
+}
